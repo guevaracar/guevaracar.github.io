@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WeatherPy</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+    <!-- Adding a Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Lattitude</a>
+
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-responsive-1" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="#plots" aria-haspop="true" aria-expanded="false">Plots<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <!-- reference the png files of WeatherPy -->
+                            <li><a href="">Max Temperature</a></li>
+                            <li><a href="">Humidity</a></li>
+                            <li><a href="">Wind Speed</a></li>
+                            <li><a href="">Cloudiness</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Comparison page -->
+                    <li><a href="#comparison">Comparison</a></li>
+
+                    <!-- Data page -->
+                    <li><a href="#data">Data</a></li>
+                </ul>
+        </div>
+    </nav>
+
+    <header class="masthead text-center text-white d-flex" id="top">
+            <div class="container my-auto">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                        <h1 class="text-uppercase">
+                            <strong>PyWeather by Carlos Guevara</strong>
+                        </h1>
+                        <hr>
+                    </div>
+                    <div class="col-lg-8 mx-auto">
+                        <p class="text mb-10">Lattitude and Weather</p>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#summary">Summary</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-sm-6" id="main-panel-1">
+                <h1>Summary</h1>
+                <hr>
+                <!-- Image of WeatherPy -->
+                <img src="" height="50%" width="50%" alt="">
+                <div style="height:10px;"></div>
+                <!-- paragraphs of summary -->
+                <p></p>
+                <p></p>
+            </div>
+
+            <div class="col-md-6 col-sm-4" id="main-panel-2">
+                <h2>Visualizations</h2>
+                <hr>
+                    <div class="rows">
+                        <div class="col-md-5 col-sm-5" id="image-4">
+                            <!-- Image of latitude vs maxtemp -->
+                            <img src="" height="100%" width="100%" alt="">
+                        </div>
+                        <div class="col-md-5 col-sm-5" id="image-4">
+                                <!-- Image of latitude vs humidity -->
+                                <img src="" height="100%" width="100%" alt="">
+                        </div>
+                        <div class="col-md-5 col-sm-5" id="image-4">
+                                <!-- Image of latitude vs cloudiness -->
+                                <img src="" height="100%" width="100%" alt="">
+                        </div>
+                        <div class="col-md-5 col-sm-5" id="image-4">
+                                <!-- Image of latitude vs windspeed -->
+                                <img src="" height="100%" width="100%" alt="">
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
