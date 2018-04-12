@@ -222,6 +222,7 @@ header h1 {
 }
 
 .tab .content h1 {
+    padding-top: 40px;
     font-size: 18px;
     margin-bottom: 10px;
     margin-left: -20px;
