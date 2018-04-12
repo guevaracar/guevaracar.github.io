@@ -16,8 +16,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 80px;
-    padding: 100px 0 0 0;
+    height: 20px;
+    padding: 5px 0 0 0;
     box-sizing: border-box;
     transition: .5s;
     z-index: 4;
@@ -30,8 +30,8 @@ body {
 .navbar ul {
     margin-top: 0;
     padding: 0;
-    /* display: flex; */
-    float: left; 
+    display: flex;
+    float: right; 
     background: #000;
     border-radius: 20px;
     opacity: .7;
