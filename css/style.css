@@ -72,7 +72,10 @@ body {
 .pimg1 {
     background-image: url('../images/austin/image2.png');
     min-height: 100vh;
+}
 
+.pimg1 .name {
+    font-size: 27px;
 }
 
 .pimg2 {
@@ -120,6 +123,7 @@ body {
     padding: 4px;
     font-size: 17px;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .ptext .border {
