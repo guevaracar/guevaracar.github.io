@@ -31,21 +31,21 @@ body {
     margin-top: 0;
     padding: 0;
     display: flex;
-    float: center; 
+    float: right; 
     background: #000;
-    border-radius: 20px;
+    border-radius: 10px;
     opacity: .7;
 }
 
 .navbar ul li {
     list-style: none;
-    line-height: 80px;
+    line-height: 50px;
     text-align: center;
 }
 
 .navbar ul li a {
     display: block;
-    padding: 0 10px;
+    padding: 0 7px;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -93,14 +93,14 @@ body {
 
 .section-light {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns:2;
     background-color: #f4f4f4;
     color: #222;
 }
 
 .section-dark {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 2;
     background-color: #282e34;
     color: #ddd;
 }
@@ -129,6 +129,7 @@ body {
 
 .ptext .border.transparent {
     background-color: transparent;
+    text-align: center;
 }
 
 body,wrap {
@@ -166,11 +167,11 @@ header h1 {
 .accordion {
     background: #222;
     width: 100%;
-    min-width: 800px;
+    min-width: 340px;
     display: block;
     list-style-type: none;
     overflow: hidden;
-    height: 200px;
+    height: 180px;
     font-size: 0;
 }
 
@@ -292,7 +293,7 @@ header h1 {
 
     .accordion {
         display: block;
-        min-width: 450px;
+        min-width: 400px;
         height: auto;
     }
 
@@ -312,6 +313,13 @@ header h1 {
 
     .accordion {
         width: 100%;
-        min-width: 350px;
+        min-width: 300px;
     }
+}
+
+footer {
+    display: block;
+    color: white;
+    text-align: center;
+    opacity: .6;
 }
