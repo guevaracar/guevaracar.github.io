@@ -184,8 +184,8 @@ header h1 {
 
 .tab {
     display: inline-block;
-    background-color: #444;
-    border-right: #333 solid 1px;
+    background-color: #222;
+    /* border-right: #333 solid 1px; */
     width: 80px;
     height: 200px;
     overflow: hidden;
@@ -207,7 +207,7 @@ header h1 {
 }
 
 .tab .content {
-    background: #fff;
+    background: #000;
     width: 300px;
     height: 200px;
     margin-left: 80px;
@@ -229,6 +229,7 @@ header h1 {
     padding-top: 10px;
     padding-right: 30px;
     margin-left: -15px;
+    color: gray;
 }
 
 .social a:before,
@@ -291,7 +292,7 @@ header h1 {
 }
 
 @media(max-width: 950px) {
-    .container {
+    .wrapper {
         width: 100%;
     }
 
@@ -318,7 +319,8 @@ header h1 {
 
 @media (max-width: 680px) {
     .container {
-        width: 95%;
+        width: 100%;
+        margin: 0;
     }
 
     .accordion {
@@ -328,6 +330,7 @@ header h1 {
 }
 
 footer {
+    width: 100%;
     display: block;
     color: white;
     text-align: center;
