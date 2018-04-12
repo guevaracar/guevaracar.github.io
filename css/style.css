@@ -95,7 +95,7 @@ body {
 }
 
 .section-light {
-    min-height: 300ox;
+    min-height: 300px;
     display: grid;
     grid-auto-flow: row;
     grid-template-rows:100%;
